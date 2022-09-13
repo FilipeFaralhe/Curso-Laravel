@@ -14,7 +14,7 @@
         <option value="3">Reclamação</option>
     </select>
     <br>
-    <textarea name="mensagem" class="{{ $cor_borda }}">Preencha aqui a sua mensagem</textarea>
+    <textarea name="mensagem" class="{{ $cor_borda }}" placeholder="Preencha aqui a sua mensagem"></textarea>
     <br>
     <button type="submit" class="{{ $cor_borda }}">ENVIAR</button>
 </form>

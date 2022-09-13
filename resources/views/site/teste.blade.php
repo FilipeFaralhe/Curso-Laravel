@@ -9,6 +9,8 @@
 </head>
     <body>
         <h3>Teste (view) P1 = {{ $valor1 }} e P2 = {{ $valor2 }}</h3>
+        <h3>Teste (view) P1 + p2 = {{ $valor1 + $valor2 }}</h3>
+        <h3>Teste (view) P1 + p2 = {{ $valor1 - $valor2 }}</h3>
         <ul>
             <li>
                 <a href="{{ route('site.index') }}">Principal</a>
