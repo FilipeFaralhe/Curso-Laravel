@@ -42,7 +42,7 @@ Route::get('/', 'PrincipalController@principal')->name('site.index'); // versão
 Route::get('/sobre-nos', 'SobreNosController@sobreNos')->name('site.sobrenos'); // versão 7 laravel
 // Route::get('/', [\App\Http\Controllers\SobreNosController::class, 'sobreNos']); // versão 8 do laravel
 
-Route::get('/contato', 'ContatoController@contato')->name('site.contato'); // versão 7 laravel
+Route::get('/contato', 'ContatoController@index')->name('site.index'); // versão 7 laravel
 Route::post('/contato', 'ContatoController@contato')->name('site.contato'); // para envios de formulário via post, é necessário criar uma rota com o método post
 // Route::get('/', [\App\Http\Controllers\ContatoController::class, 'contato']); // versão 8 do laravel
 
